@@ -1,14 +1,10 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 import TimersDashboard from './TimersDashboard'
 
-class App extends React.Component {
-  render () {
-    return (
-      <div>
-        <TimersDashboard />
-      </div>
-    )
-  }
-}
-
-export default App
+document.addEventListener('DOMContentLoaded', () => {
+  ReactDOM.render(
+    <TimersDashboard />,
+    document.getElementById('app')
+  )
+})

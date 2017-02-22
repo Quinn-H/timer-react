@@ -1,2 +1,2 @@
 # timer-react
-A Practical Project
+A React Practice 
